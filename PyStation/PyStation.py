@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import BOTH, X, Y
+from DataProcessor import DataProcessor
 
 class PyStation(tk.Frame):
     def __init__(self, master=None):
@@ -47,4 +48,6 @@ def main():
     root.destory()
 
 if __name__ == '__main__':
-    main()
+#    main()
+    processor = DataProcessor()
+    processor.main()
