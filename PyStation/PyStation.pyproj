@@ -30,13 +30,17 @@
     <Folder Include="static\" />
     <Folder Include="static\images\" />
     <Folder Include="static\flights\" />
+    <Folder Include="static\config\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="static\config\users.csv" />
     <Content Include="static\flights\8_6_16_launch.dat" />
     <Content Include="static\flights\BenSensorData16_09_28_23_23.dat" />
     <Content Include="static\flights\flight.json" />
     <Content Include="static\flights\trimmed-phased-formatted.csv" />
     <Content Include="static\flights\VDSv2_1Data.dat" />
+    <Content Include="static\images\rcr-logo-dark.png" />
+    <Content Include="static\images\rcr-logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
